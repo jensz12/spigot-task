@@ -1,9 +1,10 @@
-Build Spigot versions using [taskfile](https://taskfile.dev/)
+Build Spigot versions using [taskfile](https://taskfile.dev/).
 
-To-do: Handle the difference between Java versions needed for the different versions automatically
+To-do: Handle the difference between Java versions needed for the different versions automatically.
 
 Java versions:\
-[Debian/Ubuntu Java](https://docs.azul.com/core/install/debian)
+[Debian/Ubuntu Java](https://docs.azul.com/core/install/debian)\
+[Windows/macOS](https://www.azul.com/downloads/#zulu)\
 
 MC 1.8 to 12.2: Java 8\
 MC 1.13 to 1.13.2: Java 8 or 11\
