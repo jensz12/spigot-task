@@ -172,11 +172,11 @@ tasks:
     cmds:
     - java -jar BuildTools.jar --rev 1.10.2
   build-94:
-    desc: Build 1.9
+    desc: Build 1.9.4
     cmds:
     - java -jar BuildTools.jar --rev 1.9.4
   build-92:
-    desc: Build 1.9
+    desc: Build 1.9.2
     cmds:
     - java -jar BuildTools.jar --rev 1.9.2
   build-9:
