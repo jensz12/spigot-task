@@ -195,3 +195,19 @@ tasks:
     desc: Build 1.8
     cmds:
     - java -jar BuildTools.jar --rev 1.8
+  java-8:
+    desc: Install Java 8
+    cmds:
+    - sudo apt install zulu8-jdk -y
+  java-16:
+    desc: Install Java 16
+    cmds:
+    - sudo apt install zulu16-jdk -y
+  java-17:
+    desc: Install Java 17
+    cmds:
+    - sudo apt install zulu17-jdk -y
+  java-21:
+    desc: Install Java 21
+    cmds:
+    - sudo apt install zulu21-jdk -y
