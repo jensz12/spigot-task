@@ -1,0 +1,197 @@
+version: "3"
+
+# For bash completion, add the following to your .bashrc or .bash_profile or .bash_aliases
+# eval "$(task --completion bash)"
+tasks:
+  build:
+    desc: Build newest version
+    cmds:
+    - java -jar BuildTools.jar
+  build-215:
+    desc: Build 1.21.5
+    cmds:
+    - java -jar BuildTools.jar --rev 1.21.5
+  build-214:
+    desc: Build 1.21.4
+    cmds:
+    - java -jar BuildTools.jar --rev 1.21.4
+  build-213:
+    desc: Build 1.21.3
+    cmds:
+    - java -jar BuildTools.jar --rev 1.21.3
+  build-211:
+    desc: Build 1.21.1
+    cmds:
+    - java -jar BuildTools.jar --rev 1.21.1
+  build-206:
+    desc: Build 1.20.6
+    cmds:
+    - java -jar BuildTools.jar --rev 1.20.6
+  build-204:
+    desc: Build 1.20.4
+    cmds:
+    - java -jar BuildTools.jar --rev 1.20.4
+  build-202:
+    desc: Build 1.20.2
+    cmds:
+    - java -jar BuildTools.jar --rev 1.20.2
+  build-201:
+    desc: Build 1.20.1
+    cmds:
+    - java -jar BuildTools.jar --rev 1.20.1
+  build-194:
+    desc: Build 1.19.2
+    cmds:
+    - java -jar BuildTools.jar --rev 1.19.4
+  build-193:
+    desc: Build 1.19.2
+    cmds:
+    - java -jar BuildTools.jar --rev 1.19.3
+  build-192:
+    desc: Build 1.19.2
+    cmds:
+    - java -jar BuildTools.jar --rev 1.19.2
+  build-191:
+    desc: Build 1.19.1
+    cmds:
+    - java -jar BuildTools.jar --rev 1.19.1
+  build-19:
+    desc: Build 1.19
+    cmds:
+    - java -jar BuildTools.jar --rev 1.19
+  build-182:
+    desc: Build 1.18.2
+    cmds:
+    - java -jar BuildTools.jar --rev 1.18.2
+  build-181:
+    desc: Build 1.18.1
+    cmds:
+    - java -jar BuildTools.jar --rev 1.18.1
+  build-18:
+    desc: Build 1.18
+    cmds:
+    - java -jar BuildTools.jar --rev 1.18
+  build-171:
+    desc: Build 1.17.1
+    cmds:
+    - java -jar BuildTools.jar --rev 1.17.1
+  build-17:
+    desc: Build 1.17
+    cmds:
+    - java -jar BuildTools.jar --rev 1.17
+  build-165:
+    desc: Build 1.16.5
+    cmds:
+    - java -jar BuildTools.jar --rev 1.16.5
+  build-164:
+    desc: Build 1.16.4
+    cmds:
+    - java -jar BuildTools.jar --rev 1.16.4
+  build-163:
+    desc: Build 1.16.3
+    cmds:
+    - java -jar BuildTools.jar --rev 1.16.3
+  build-162:
+    desc: Build 1.16.2
+    cmds:
+    - java -jar BuildTools.jar --rev 1.16.2
+  build-161:
+    desc: Build 1.16.1
+    cmds:
+    - java -jar BuildTools.jar --rev 1.16.1
+  build-152:
+    desc: Build 1.15.2
+    cmds:
+    - java -jar BuildTools.jar --rev 1.15.2
+  build-151:
+    desc: Build 1.15
+    cmds:
+    - java -jar BuildTools.jar --rev 1.15.1
+  build-15:
+    desc: Build 1.15
+    cmds:
+    - java -jar BuildTools.jar --rev 1.15
+  build-144:
+    desc: Build 1.14.4
+    cmds:
+    - java -jar BuildTools.jar --rev 1.14.4
+  build-143:
+    desc: Build 1.14.3
+    cmds:
+    - java -jar BuildTools.jar --rev 1.14.3
+  build-142:
+    desc: Build 1.14.2
+    cmds:
+    - java -jar BuildTools.jar --rev 1.14.2
+  build-141:
+    desc: Build 1.14.1
+    cmds:
+    - java -jar BuildTools.jar --rev 1.14.1
+  build-14:
+    desc: Build 1.14
+    cmds:
+    - java -jar BuildTools.jar --rev 1.14
+  build-132:
+    desc: Build 1.13.2
+    cmds:
+    - java -jar BuildTools.jar --rev 1.13.2
+  build-131:
+    desc: Build 1.13.1
+    cmds:
+    - java -jar BuildTools.jar --rev 1.13.1
+  build-13:
+    desc: Build 1.13
+    cmds:
+    - java -jar BuildTools.jar --rev 1.13
+  build-122:
+    desc: Build 1.12.2
+    cmds:
+    - java -jar BuildTools.jar --rev 1.12.2
+  build-121:
+    desc: Build 1.12.1
+    cmds:
+    - java -jar BuildTools.jar --rev 1.12.1
+  build-12:
+    desc: Build 1.12
+    cmds:
+    - java -jar BuildTools.jar --rev 1.12
+  build-112:
+    desc: Build 1.11.2
+    cmds:
+    - java -jar BuildTools.jar --rev 1.11.2
+  build-111:
+    desc: Build 1.11.1
+    cmds:
+    - java -jar BuildTools.jar --rev 1.11.1
+  build-11:
+    desc: Build 1.11
+    cmds:
+    - java -jar BuildTools.jar --rev 1.11
+  build-102:
+    desc: Build 1.10.2
+    cmds:
+    - java -jar BuildTools.jar --rev 1.10.2
+  build-94:
+    desc: Build 1.9
+    cmds:
+    - java -jar BuildTools.jar --rev 1.9.4
+  build-92:
+    desc: Build 1.9
+    cmds:
+    - java -jar BuildTools.jar --rev 1.9.2
+  build-9:
+    desc: Build 1.9
+    cmds:
+    - java -jar BuildTools.jar --rev 1.9
+  build-88:
+    desc: Build 1.8.8
+    cmds:
+    - java -jar BuildTools.jar --rev 1.8.8
+  build-83:
+    desc: Build 1.8.3
+    cmds:
+    - java -jar BuildTools.jar --rev 1.8.3
+  build-8:
+    desc: Build 1.8
+    cmds:
+    - java -jar BuildTools.jar --rev 1.8
