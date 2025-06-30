@@ -5,7 +5,7 @@ Java versions:\
 [Windows/macOS](https://www.azul.com/downloads/#zulu)
 
 On ubuntu, just run `task java-setup` to setup Zulu Java\
-Then do `task java-XX` to setup Java. Replace XX withg the version of Java you need. 8, 16, 17 & 21 is preconfigured
+Then do `task java -- Java version nunber` to setup Java. Replace XX withg the version of Java you need. 8, 16, 17 & 21 is preconfigured
 
 MC 1.8 to 12.2: Java 8\
 MC 1.13 to 1.13.2: Java 8 or 11\
