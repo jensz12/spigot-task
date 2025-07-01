@@ -18,7 +18,7 @@ Uses Azuls Zulu JDK for Java.\
 
 ## Java versions
 
-Minecraft needs the following Java versions\
+Minecraft needs the following Java versions
 
 - 1.8 to 12.2: Java 8
 - 1.13 to 1.13.2: Java 8 or 11
