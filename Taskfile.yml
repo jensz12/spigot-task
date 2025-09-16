@@ -7,14 +7,17 @@ tasks:
     desc: Build newest version.
     cmds:
       - java -jar BuildTools.jar
+
   build-specific:
     desc: Build a specific version of Minecraft. Use "-- MC version" to get a specific version.
     cmds:
       - java -jar BuildTools.jar --rev {{.CLI_ARGS}}
+
   java:
     desc: Install Java. Use "-- java version number" to install specific version of Java. Will also uninstall any other version.
     cmds:
       - sudo apt remove zulu*-jdk -y && sudo apt install zulu{{.CLI_ARGS}}-jdk -y
+
   java-setup:
     desc: Set up Zulu Java and install Java 21.
     cmds:
@@ -23,6 +26,7 @@ tasks:
       - echo "deb [signed-by=/usr/share/keyrings/azul.gpg] https://repos.azul.com/zulu/deb stable main" | sudo tee /etc/apt/sources.list.d/zulu.list
       - sudo apt update
       - sudo apt install zulu21-jdk -y
+
   setup:
     desc: Download the latest BuildTools.jar.
     cmds:
