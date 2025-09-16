@@ -1,0 +1,8 @@
+/Spigot
+/work
+/CraftBukkit
+/Bukkit
+/BuildData
+/apache-maven-*
+*.jar
+*.txt
