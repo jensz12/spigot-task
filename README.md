@@ -35,6 +35,7 @@ A list of all versions supported by Spigot
 
 ## 1.21
 
+- 1.21.9
 - 1.21.8
 - 1.21.7
 - 1.21.6
