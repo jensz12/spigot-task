@@ -19,4 +19,4 @@ jobs:
               run: jsonschema metaschema schema/schema.json
 
             - name: Validate JSON files
-              run: jsonschema validate schema/schema.json $(find /*)
+              run: jsonschema validate schema/schema.json Taskfile.yml
