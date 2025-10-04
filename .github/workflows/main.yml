@@ -1,0 +1,22 @@
+name: Validate taskfile
+
+on:
+    push:
+        branches: ["main"]
+    pull_request:
+        branches: ["main"]
+
+jobs:
+    validate:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v5
+
+            - name: Install the JSON Schema CLI
+              uses: sourcemeta/jsonschema@v11.8.3
+
+            - name: Validate JSON schema
+              run: jsonschema metaschema schemas/schema.json
+
+            - name: Validate JSON files
+              run: jsonschema validate schemas/schema.json $(find /*)
