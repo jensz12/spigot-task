@@ -3,13 +3,17 @@ version: "3"
 # For bash completion, add the following to your .bashrc or .bash_profile or .bash_aliases
 # eval "$(task --completion bash)"
 tasks:
-  build-latest:
+  build:latest:
     desc: Build newest version.
+    aliases:
+      - latest
     cmds:
       - java -jar BuildTools.jar
 
-  build-specific:
+  build:specific:
     desc: Build a specific version of Minecraft. Use "-- MC version" to get a specific version.
+    aliases:
+      - specific
     cmds:
       - java -jar BuildTools.jar --rev {{.CLI_ARGS}}
 
@@ -18,7 +22,7 @@ tasks:
     cmds:
       - sudo apt remove zulu*-jdk -y && sudo apt install zulu{{.CLI_ARGS}}-jdk -y
 
-  java-setup:
+  java:setup:
     desc: Set up Zulu Java and install Java 21.
     cmds:
       - sudo apt install gnupg ca-certificates curl -y
