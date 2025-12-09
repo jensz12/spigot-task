@@ -33,8 +33,11 @@ Minecraft needs the following Java versions
 
 A list of all versions supported by Spigot
 
+From 2026, version numbers will change to start with the year, so for instance 1.21.11 would be called 25.4
+
 ## 1.21
 
+- 1.21.11
 - 1.21.10
 - 1.21.8
 - 1.21.6
