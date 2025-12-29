@@ -27,7 +27,8 @@ Minecraft needs the following Java versions
 - 1.16 to 1.16.5: Java 8 or 14
 - 1.17: Java 16
 - 1.17.1 to 1.20.5: Java 17
-- 1.20.5 to latest: Java 21
+- 1.20.5 to 1.21.11: Java 21
+- 26.1 to latest: Java 25
 
 # Spigot MC Versions
 
@@ -55,8 +56,8 @@ From 2026, version numbers will change to start with the year, so for instance 1
 
 ## 1.19
 
-- 1.19.2
-- 1.19.2
+- 1.19.4
+- 1.19.3
 - 1.19.2
 - 1.19.1
 - 1.19
