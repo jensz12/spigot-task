@@ -36,7 +36,7 @@ A list of all versions supported by Spigot
 
 From 2026, version numbers will change to start with the year, so for instance 1.21.11 would be called 25.4
 
-# 26
+## 26
 
 - 26.1
 
