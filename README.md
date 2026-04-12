@@ -39,8 +39,6 @@ From 2026, version numbers will change to start with the year, so for instance 1
 ## 26
 
 - 26.1.2
-- 26.1.1
-- 26.1
 
 ## 1.21
 
